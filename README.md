@@ -126,14 +126,14 @@ client.totp_validate(mpin="")
 # trailing_stop_loss: Applicable only for Bracket Order. Expected Values are 'Y' and 'N'.
 # trailing_sl_value: Applicable only for Bracket Order. Expected Values are 'Y' and 'N'.	
 client.place_order(
-    exchange_segment="",
-    product="",
-    price="",
-    order_type="",
-    quantity="",
-    validity="",
-    trading_symbol="",
-    transaction_type="",
+    exchange_segment="NSC",
+    product="NRML",
+    price="872",
+    order_type="L",
+    quantity="3",
+    validity="DAY",
+    trading_symbol="LICI",
+    transaction_type="B",
     amo="NO",
     disclosed_quantity="0",
     market_protection="0",
